@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skein rootNode="node-1">
+  <generator>Windows Inform 7 6M62</generator>
+  <activeNode nodeId="node-97"/>
+  <item nodeId="node-1">
+    <command xml:space="preserve">ClandestineDrifting</command>
+    <result xml:space="preserve">ClandestineDrifting&#x000A;An Interactive Fiction by booleanPro&#x000A;Release 1 / Serial number 210919 / Inform 7 build 6M62 (I6/v6.33 lib 6/12N) SD&#x000A;&#x000A;bedroom&#x000A;You live on the 2nd floor of an apartment. You just woke up from your evening nap. It is 9 o clock. You drift off to the shiny piece of metal that hangs on your key hanger next to the door of the living room. It's Drift Night with the boys! You jump out of bed quickly. You are inside, in the bedroom. To your north is a small division that separates your apartment from the bathroom and the living room.&#x000A;&#x000A;You can see Bedroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-2"/>
+      <child nodeId="node-3"/>
+      <child nodeId="node-9"/>
+      <child nodeId="node-35"/>
+      <child nodeId="node-38"/>
+      <child nodeId="node-70"/>
+    </children>
+  </item>
+  <item nodeId="node-2">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">apartment&#x000A;You live on the 2nd floor of an apartment. You just woke up from your evening nap. It is 9 o clock. You drift off to the shiny piece of metal that hangs on your key hanger next to the door of the living room. It's Drift Night with the boys! You jump out of bed quickly.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-3">
+    <command xml:space="preserve">examine apartment door</command>
+    <result xml:space="preserve">A brown door with matching bronze-decaying handles and hinges.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-4"/>
+    </children>
+  </item>
+  <item nodeId="node-4">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open Apartment door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-5"/>
+    </children>
+  </item>
+  <item nodeId="node-5">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-6"/>
+    </children>
+  </item>
+  <item nodeId="node-6">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">bedroom&#x000A;You live on the 2nd floor of an apartment. You just woke up from your evening nap. It is 9 o clock. You drift off to the shiny piece of metal that hangs on your key hanger next to the door of the living room. It's Drift Night with the boys! You jump out of bed quickly. You are inside, in the bedroom. To your north is a small division that separates your apartment from the bathroom and the living room.&#x000A;&#x000A;You can see Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-7"/>
+    </children>
+  </item>
+  <item nodeId="node-7">
+    <command xml:space="preserve">go into bathroom</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-8"/>
+    </children>
+  </item>
+  <item nodeId="node-8">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">bathroom&#x000A;This room is what you like to call your place of zen and piece...&#x000A;a.k.a your private place...&#x000A;&#x000A;You can see Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-9">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-10"/>
+    </children>
+  </item>
+  <item nodeId="node-10">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-11"/>
+    </children>
+  </item>
+  <item nodeId="node-11">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-12"/>
+    </children>
+  </item>
+  <item nodeId="node-12">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Bedroom door)&#x000A;&#x000A;division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bedroom door, Living room door and Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-13"/>
+    </children>
+  </item>
+  <item nodeId="node-13">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">bedroom&#x000A;You live on the 2nd floor of an apartment. You just woke up from your evening nap. It is 9 o clock. You drift off to the shiny piece of metal that hangs on your key hanger next to the door of the living room. It's Drift Night with the boys! You jump out of bed quickly. You are inside, in the bedroom. To your north is a small division that separates your apartment from the bathroom and the living room.&#x000A;&#x000A;You can see Bedroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-14"/>
+    </children>
+  </item>
+  <item nodeId="node-14">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-15"/>
+    </children>
+  </item>
+  <item nodeId="node-15">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bedroom door, Living room door and Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-16"/>
+    </children>
+  </item>
+  <item nodeId="node-16">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">Which do you mean, Bedroom door, Living room door or Bathroom door?&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-17"/>
+    </children>
+  </item>
+  <item nodeId="node-17">
+    <command xml:space="preserve">open bathroom door</command>
+    <result xml:space="preserve">You open Bathroom door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-18"/>
+    </children>
+  </item>
+  <item nodeId="node-18">
+    <command xml:space="preserve">go bathroom</command>
+    <result xml:space="preserve">bathroom&#x000A;This room is what you like to call your place of zen and piece...&#x000A;a.k.a your private place...&#x000A;&#x000A;You can see Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-19"/>
+    </children>
+  </item>
+  <item nodeId="node-19">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-20"/>
+    </children>
+  </item>
+  <item nodeId="node-20">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bathroom door, Bedroom door and Living room door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-21"/>
+    </children>
+  </item>
+  <item nodeId="node-21">
+    <command xml:space="preserve">open living room door</command>
+    <result xml:space="preserve">You open Living room door.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-22"/>
+    </children>
+  </item>
+  <item nodeId="node-22">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">bathroom&#x000A;This room is what you like to call your place of zen and piece...&#x000A;a.k.a your private place...&#x000A;&#x000A;You can see Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-23"/>
+    </children>
+  </item>
+  <item nodeId="node-23">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bathroom door, Bedroom door and Living room door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-24"/>
+    </children>
+  </item>
+  <item nodeId="node-24">
+    <command xml:space="preserve">go to living room</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-25"/>
+    </children>
+  </item>
+  <item nodeId="node-25">
+    <command xml:space="preserve">open living room door</command>
+    <result xml:space="preserve">That's already open.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-26"/>
+    </children>
+  </item>
+  <item nodeId="node-26">
+    <command xml:space="preserve">go living room</command>
+    <result xml:space="preserve">living room&#x000A;You are now in the living room. This room allows you to breathe in from the window you keep open all day. On the far, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;You can see Living room door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-27"/>
+    </children>
+  </item>
+  <item nodeId="node-27">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-28"/>
+    </children>
+  </item>
+  <item nodeId="node-28">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">kitchen&#x000A;You are in the kitchen, where you still faintly smell the garlic and the oil from your earlier meal. What was it?...&#x000A;&#x000A;Ah yes, teriyaki chicken, chow mein, and fried rice from your favorite Thai place out in Echo Park.&#x000A;Anyways, where were we?...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-29"/>
+    </children>
+  </item>
+  <item nodeId="node-29">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-30"/>
+    </children>
+  </item>
+  <item nodeId="node-30">
+    <command xml:space="preserve">go east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-31"/>
+    </children>
+  </item>
+  <item nodeId="node-31">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-32"/>
+    </children>
+  </item>
+  <item nodeId="node-32">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">living room&#x000A;You are now in the living room. This room allows you to breathe in from the window you keep open all day. On the far, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;You can see Living room door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-33"/>
+    </children>
+  </item>
+  <item nodeId="node-33">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">kitchen&#x000A;You are in the kitchen, where you still faintly smell the garlic and the oil from your earlier meal. What was it?...&#x000A;&#x000A;Ah yes, teriyaki chicken, chow mein, and fried rice from your favorite Thai place out in Echo Park.&#x000A;Anyways, where were we?...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-34"/>
+    </children>
+  </item>
+  <item nodeId="node-34">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">living room&#x000A;You are now in the living room. This room allows you to breathe in from the window you keep open all day. On the far, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;You can see Living room door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-35">
+    <command xml:space="preserve">door</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-36"/>
+      <child nodeId="node-61"/>
+    </children>
+  </item>
+  <item nodeId="node-36">
+    <command xml:space="preserve">dance</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-37"/>
+    </children>
+  </item>
+  <item nodeId="node-37">
+    <command xml:space="preserve">drift</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-61">
+    <command xml:space="preserve">go door</command>
+    <result xml:space="preserve">(first opening Bedroom door)&#x000A;&#x000A;division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bedroom door, Living-room door and Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-62"/>
+    </children>
+  </item>
+  <item nodeId="node-62">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening Living-room door)&#x000A;&#x000A;living-room room&#x000A;You are now in the living room. This room allows you to breathe in the carbon exhausts from the cars outside because you always keep the living room window open. On the far wall, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;On the key hanger are a house key, a GTI keys Key and a safe key.&#x000A;&#x000A;You can also see Living-room door and Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-63"/>
+    </children>
+  </item>
+  <item nodeId="node-63">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening Apartment door)&#x000A;&#x000A;main apartment hallway&#x000A;You are outside of your apartment. The smell of cigarettes fills your nose as you step into the main apartment hallway. Your next door neighbor must have had another bad day at work again. It looks darker than it does in your apartment. Get away from the stench by taking the stairs&#x000A;&#x000A;You can see Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-64"/>
+    </children>
+  </item>
+  <item nodeId="node-64">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">sidewalk&#x000A;As you step onto the sidewalk, you can't help but notice the stock cars lined up along the curb. You take in fresh air as you look left and right at the dark apartments, which are, one by one, turning off their lights for the night. It's time for drifting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-65"/>
+    </children>
+  </item>
+  <item nodeId="node-65">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">driveway&#x000A;You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-66"/>
+    </children>
+  </item>
+  <item nodeId="node-66">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">garage&#x000A;You love and hate the fact that you can't have your own garage door. Love it because, well, everyone who passes by can see it. Hate it, because you sometimes, you want the car to have its own private space, especially when it's leaking oil late after a midnight run... Oh, yeah. It has no lights. Now that's annoying.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-67"/>
+    </children>
+  </item>
+  <item nodeId="node-67">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-68"/>
+    </children>
+  </item>
+  <item nodeId="node-68">
+    <command xml:space="preserve">look </command>
+    <result xml:space="preserve">garage&#x000A;You love and hate the fact that you can't have your own garage door. Love it because, well, everyone who passes by can see it. Hate it, because you sometimes, you want the car to have its own private space, especially when it's leaking oil late after a midnight run... Oh, yeah. It has no lights. Now that's annoying.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-69"/>
+    </children>
+  </item>
+  <item nodeId="node-69">
+    <command xml:space="preserve">examine garage</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-38">
+    <command xml:space="preserve">sleep</command>
+    <result xml:space="preserve">You aren't feeling especially drowsy.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-39"/>
+    </children>
+  </item>
+  <item nodeId="node-39">
+    <command xml:space="preserve">wake</command>
+    <result xml:space="preserve">The dreadful truth is, this is not a dream.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-40"/>
+    </children>
+  </item>
+  <item nodeId="node-40">
+    <command xml:space="preserve">dream</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-41"/>
+    </children>
+  </item>
+  <item nodeId="node-41">
+    <command xml:space="preserve">dress</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-42"/>
+    </children>
+  </item>
+  <item nodeId="node-42">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">(first opening Bedroom door)&#x000A;&#x000A;division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bedroom door, Living-room door and Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-43"/>
+    </children>
+  </item>
+  <item nodeId="node-43">
+    <command xml:space="preserve">go west</command>
+    <result xml:space="preserve">(first opening Living-room door)&#x000A;&#x000A;living-room room&#x000A;You are now in the living room. This room allows you to breathe in the carbon exhausts from the cars outside because you always keep the living room window open. On the far wall, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;On the key hanger are a house key, a GTI keys Key and a safe key.&#x000A;&#x000A;You can also see Living-room door and Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-44"/>
+    </children>
+  </item>
+  <item nodeId="node-44">
+    <command xml:space="preserve">go south</command>
+    <result xml:space="preserve">kitchen&#x000A;You are in the kitchen, where you still faintly smell the garlic and the oil from your earlier meal. What was it?...&#x000A;&#x000A;Ah yes, teriyaki chicken, chow mein, and fried rice from your favorite Thai place out in Echo Park.&#x000A;Anyways, where were we?...&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-45"/>
+    </children>
+  </item>
+  <item nodeId="node-45">
+    <command xml:space="preserve">go north</command>
+    <result xml:space="preserve">living-room room&#x000A;You are now in the living room. This room allows you to breathe in the carbon exhausts from the cars outside because you always keep the living room window open. On the far wall, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;On the key hanger are a house key, a GTI keys Key and a safe key.&#x000A;&#x000A;You can also see Living-room door and Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-46"/>
+    </children>
+  </item>
+  <item nodeId="node-46">
+    <command xml:space="preserve">examine key hanger</command>
+    <result xml:space="preserve">Another brown object, a hanger where you hang and keep all your keys. There's the house key, GTI keys, work keys, and a odd-looking silver key...&#x000A;&#x000A;On the key hanger are a house key, a GTI keys Key and a safe key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-47"/>
+    </children>
+  </item>
+  <item nodeId="node-47">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening Apartment door)&#x000A;&#x000A;main apartment hallway&#x000A;You are outside of your apartment. The smell of cigarettes fills your nose as you step into the main apartment hallway. Your next door neighbor must have had another bad day at work again. It looks darker than it does in your apartment. Get away from the stench by taking the stairs&#x000A;&#x000A;You can see Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-48"/>
+    </children>
+  </item>
+  <item nodeId="node-48">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">sidewalk&#x000A;As you step onto the sidewalk, you can't help but notice the stock cars lined up along the curb. You take in fresh air as you look left and right at the dark apartments, which are, one by one, turning off their lights for the night. It's time for drifting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-49"/>
+    </children>
+  </item>
+  <item nodeId="node-49">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-50"/>
+    </children>
+  </item>
+  <item nodeId="node-50">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-51"/>
+    </children>
+  </item>
+  <item nodeId="node-51">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-52"/>
+    </children>
+  </item>
+  <item nodeId="node-52">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">driveway&#x000A;You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-53"/>
+    </children>
+  </item>
+  <item nodeId="node-53">
+    <command xml:space="preserve">see</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-54"/>
+    </children>
+  </item>
+  <item nodeId="node-54">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">driveway&#x000A;You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-55"/>
+    </children>
+  </item>
+  <item nodeId="node-55">
+    <command xml:space="preserve">examine driveway</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-56"/>
+    </children>
+  </item>
+  <item nodeId="node-56">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">sidewalk&#x000A;As you step onto the sidewalk, you can't help but notice the stock cars lined up along the curb. You take in fresh air as you look left and right at the dark apartments, which are, one by one, turning off their lights for the night. It's time for drifting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-57"/>
+    </children>
+  </item>
+  <item nodeId="node-57">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">driveway&#x000A;You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-58"/>
+    </children>
+  </item>
+  <item nodeId="node-58">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-59"/>
+    </children>
+  </item>
+  <item nodeId="node-59">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-60"/>
+    </children>
+  </item>
+  <item nodeId="node-60">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+  <item nodeId="node-70">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening Bedroom door)&#x000A;&#x000A;division&#x000A;Middle ground room between the bathroom and the bedroom&#x000A;&#x000A;You can see Bedroom door, Living-room door and Bathroom door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-71"/>
+    </children>
+  </item>
+  <item nodeId="node-71">
+    <command xml:space="preserve">west</command>
+    <result xml:space="preserve">(first opening Living-room door)&#x000A;&#x000A;living-room room&#x000A;You are now in the living room. This room allows you to breathe in the carbon exhausts from the cars outside because you always keep the living room window open. On the far wall, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now...&#x000A;&#x000A;You can see Living-room door, Apartment door and a key hanger (on which are a house key, a GTI-keys Key and a safe key) here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-72"/>
+    </children>
+  </item>
+  <item nodeId="node-72">
+    <command xml:space="preserve">take key hanger</command>
+    <result xml:space="preserve">You get the house key and put it in your pocket.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-73"/>
+    </children>
+  </item>
+  <item nodeId="node-73">
+    <command xml:space="preserve">examine key hanger</command>
+    <result xml:space="preserve">Another brown object, a hanger where you hang and keep all your keys. There's the house key, GTI keys, work keys, and a odd-looking silver key...&#x000A;&#x000A;On the key hanger are a house key, a GTI-keys Key and a safe key.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-74"/>
+    </children>
+  </item>
+  <item nodeId="node-74">
+    <command xml:space="preserve">take gti-keys</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-75"/>
+    </children>
+  </item>
+  <item nodeId="node-75">
+    <command xml:space="preserve">take safe key</command>
+    <result xml:space="preserve">Taken.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-76"/>
+    </children>
+  </item>
+  <item nodeId="node-76">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">(first opening Apartment door)&#x000A;&#x000A;main apartment hallway&#x000A;You are outside of your apartment. The smell of cigarettes fills your nose as you step into the main apartment hallway. Your next door neighbor must have had another bad day at work again. It looks darker than it does in your apartment. Get away from the stench by taking the stairs&#x000A;&#x000A;You can see Apartment door here.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-77"/>
+    </children>
+  </item>
+  <item nodeId="node-77">
+    <command xml:space="preserve">down</command>
+    <result xml:space="preserve">sidewalk&#x000A;As you step onto the sidewalk, you can't help but notice the stock cars lined up along the curb. You take in fresh air as you look left and right at the dark apartments, which are, one by one, turning off their lights for the night. It's time for drifting.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-78"/>
+    </children>
+  </item>
+  <item nodeId="node-78">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">driveway&#x000A;You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-79"/>
+    </children>
+  </item>
+  <item nodeId="node-79">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">garage&#x000A;You love and hate the fact that you can't have your own garage door. Love it because, well, everyone who passes by can see it. Hate it, because you sometimes, you want the car to have its own private space, especially when it's leaking oil late after a midnight run... Oh, yeah. It has no lights. Now that's annoying.&#x000A;&#x000A;There it is. Parked and basking in darkness is your beautiful 2018 Volkswagen GTI Rabbit. You use your phone's flashlight to check the car to make sure that there are no new marks on it's eerily dark body. The spectrum oak green color comes into view, as it shines under your phone's effervescent blue light. It looks just as you had it yesterday, and the day before that, and the day before that one, as if just came out of the factory. It's been 3 years and it still looks brand new.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-80"/>
+    </children>
+  </item>
+  <item nodeId="node-80">
+    <command xml:space="preserve">get in car</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-81"/>
+    </children>
+  </item>
+  <item nodeId="node-81">
+    <command xml:space="preserve">see gti</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-82"/>
+    </children>
+  </item>
+  <item nodeId="node-82">
+    <command xml:space="preserve">look gti</command>
+    <result xml:space="preserve">The GTI is empty.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-83"/>
+    </children>
+  </item>
+  <item nodeId="node-83">
+    <command xml:space="preserve">get in gti</command>
+    <result xml:space="preserve">You get into the GTI.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-84"/>
+    </children>
+  </item>
+  <item nodeId="node-84">
+    <command xml:space="preserve">get in gti</command>
+    <result xml:space="preserve">But you're already in the GTI.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-85"/>
+    </children>
+  </item>
+  <item nodeId="node-85">
+    <command xml:space="preserve">get out of gti</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-86"/>
+    </children>
+  </item>
+  <item nodeId="node-86">
+    <command xml:space="preserve">get out gti</command>
+    <result xml:space="preserve">I only understood you as far as wanting to get outside.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-87"/>
+    </children>
+  </item>
+  <item nodeId="node-87">
+    <command xml:space="preserve">garage</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-88"/>
+    </children>
+  </item>
+  <item nodeId="node-88">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">You can't go that way.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-89"/>
+    </children>
+  </item>
+  <item nodeId="node-89">
+    <command xml:space="preserve">exit gti</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-90"/>
+    </children>
+  </item>
+  <item nodeId="node-90">
+    <command xml:space="preserve">exit car</command>
+    <result xml:space="preserve">I only understood you as far as wanting to exit.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-91"/>
+    </children>
+  </item>
+  <item nodeId="node-91">
+    <command xml:space="preserve">exit</command>
+    <result xml:space="preserve">You get out of the GTI.&#x000A;&#x000A;garage&#x000A;You love and hate the fact that you can't have your own garage door. Love it because, well, everyone who passes by can see it. Hate it, because you sometimes, you want the car to have its own private space, especially when it's leaking oil late after a midnight run... Oh, yeah. It has no lights. Now that's annoying.&#x000A;&#x000A;There it is. Parked and basking in darkness is your beautiful 2018 Volkswagen GTI Rabbit. You use your phone's flashlight to check the car to make sure that there are no new marks on it's eerily dark body. The spectrum oak green color comes into view, as it shines under your phone's effervescent blue light. It looks just as you had it yesterday, and the day before that, and the day before that one, as if just came out of the factory. It's been 3 years and it still looks brand new.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-92"/>
+    </children>
+  </item>
+  <item nodeId="node-92">
+    <command xml:space="preserve">car-handle</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-93"/>
+    </children>
+  </item>
+  <item nodeId="node-93">
+    <command xml:space="preserve">car handle</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-94"/>
+    </children>
+  </item>
+  <item nodeId="node-94">
+    <command xml:space="preserve">handle</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-95"/>
+    </children>
+  </item>
+  <item nodeId="node-95">
+    <command xml:space="preserve">car</command>
+    <result xml:space="preserve">That's not a verb I recognise.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-96"/>
+    </children>
+  </item>
+  <item nodeId="node-96">
+    <command xml:space="preserve">enter car</command>
+    <result xml:space="preserve">You can't see any such thing.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+    <children>
+      <child nodeId="node-97"/>
+    </children>
+  </item>
+  <item nodeId="node-97">
+    <command xml:space="preserve">enter gti</command>
+    <result xml:space="preserve">You get into the GTI.&#x000A;&#x000A;&gt;</result>
+    <commentary xml:space="preserve"></commentary>
+    <changed>NO</changed>
+  </item>
+</Skein>

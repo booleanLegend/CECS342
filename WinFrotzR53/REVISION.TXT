@@ -1,0 +1,68 @@
+2.32 5.3	Released 05/25/99
+ * Built with VisualC 6 SP2
+ * Fixed saving out window dimensions when minimized
+ * Fixed a bug that could prevent save game from working
+ * Added ZMachine function keys (after Kirk Klobe pretty much did it for 
+   me). There are icons on the icon bar, or you can use CTRL + Fkey. Yes,
+   that's CONTROL + the key. I could not in good mind override the native
+   assignment of the F1 key, which is help in all Windows apps. Would have
+   confused newbies to no end.
+ * At this point I am seriously considering throwing everything out the
+   window and re-writing WinFrotz from the ground up as an object oriented,
+   portable, extensible Z-Machine implementation. The current source is
+   appalling. I will be thinking about this for the next month or so. Also,
+   note that I have changed jobs and my new e-mail (home) is rich@cstone.net
+
+2.32 R5.2b	Released 06/13/98
+ * Released mostly to assure people I was still alive and thinking of the 
+   Z-Machine (I've been getting e-mails).
+ * Corrected a small refresh logic problem when prompted input was
+   displayed (Terpetude)
+ * Built with MFC dynamically linked instead of statically. This makes it 
+   much smaller. There is a slight chance you will not have the required
+   DLLs however. If this is the case download this file:
+   http://activex.microsoft.com/controls/vc/mfc42.cab. If you have
+   Internet Explorer it can install it automatically. If you don't, get 
+   the Powertoys Cab Viewer at 
+   http://www.microsoft.com/windows/downloads/contents/powertoys/w95cabview/default.asp
+ * Investigating supporting text-to-speech directly for the visually 
+   impaired. I should get to this shortly.
+ * Fixed the web page posting so the executable was actually there :-)
+
+2.32 R5.2	Released 11/09/97
+ * Corrected overwrite of previous text when inserting into the input line
+   before the last character
+ * Fixed a crash condition when Sound Options was accessed with no wave 
+   device at all present.
+ * Fixed sequence that could cause crashes when loading certain story files
+   then loading a V6 game. This appeared to be a compiler bug, disturbingly
+   enough. I hate when that happens.
+ * Tandy bit was being set incorrectly, fixed.
+ * Finally remembered to save toolbar and statbar state, so you can stop 
+   piling up email about that.
+
+2.32 R5.1	Released 9/27/97
+2.32 R5.0	Released 9/27/97     ---Major Version change---
+2.22 R4.5	Released 8/27/97
+2.22 R4.4	Released 7/13/97
+2.22 R4.3	Released 6/4/97
+2.22 R4.2	Released 4/23/97
+2.22 R4.1	Released 3/29/97
+2.22 R4		Released 02/26/97     ---Major Version change---
+2.01 R3.4	Released 02/19/97
+2.01 R3.3	Released 02/10/97
+2.01 R3.2	Released 02/03/97
+2.01 R3.1	Released 02/02/97
+2.01 R3		Released 02/01/97
+2.01 R2		Released 01/21/97
+2.01 R1		Released 01/20/97
+1.00 B10	Released 01/08/97
+1.00 B9 	Released 01/08/97
+1.00 B8 	Released 01/07/97
+1.00 B7 	Released 01/07/97
+1.00 B6 	Released 01/06/97
+1.00 B5 	Released 12/30/96
+1.00 B4 	Released 12/30/96
+1.00 B3 	Released 12/20/96
+1.00 B2 	Released 12/19/96
+1.00 B1 	Released 12/18/96

@@ -1,0 +1,38 @@
+! Blurb file created by Inform build 6M62
+
+status "C:\Program Files (x86)\Inform 7\Internal\Miscellany\CblorbModel.html" "C:\0's and 1's\OneDrive - csulb\Courses\____Fall 2021\CECS 342\Assignment 1\ClandestineDrifting.inform\Build\StatusCblorb.html"
+
+
+! Identification
+
+project folder "C:\0's and 1's\OneDrive - csulb\Courses\____Fall 2021\CECS 342\Assignment 1\ClandestineDrifting.inform"
+release to "C:\0's and 1's\OneDrive - csulb\Courses\____Fall 2021\CECS 342\Assignment 1\ClandestineDrifting.materials\Release"
+
+! Blorb instructions
+
+storyfile leafname "ClandestineDrifting.zblorb"
+storyfile "C:\0's and 1's\OneDrive - csulb\Courses\____Fall 2021\CECS 342\Assignment 1\ClandestineDrifting.inform\Build\output.z8" include
+ifiction "C:\0's and 1's\OneDrive - csulb\Courses\____Fall 2021\CECS 342\Assignment 1\ClandestineDrifting.inform\Metadata.iFiction" include
+cover "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+picture 1 "C:\Program Files (x86)\Inform 7\Internal\Miscellany\Cover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "155B86DC-AEDA-4239-90AC-D2F93015F54E"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2021"
+placeholder [TITLE] = "ClandestineDrifting"
+placeholder [AUTHOR] = "booleanPro"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc403.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc405.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc406.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a file of "Such-and-Such" called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc401.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc411.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc412.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
+status alternative ||Using 'Release along with the introductory postcard'&nbsp;<a href=inform:/doc404.html><img border=0 src=inform:/doc_images/help.png></a>||
