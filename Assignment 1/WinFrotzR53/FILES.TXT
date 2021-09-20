@@ -1,0 +1,31 @@
+The following files are included in the WinFrotz distribution:
+
+WINFROTZ.EXE	-	The WinFrotz executable
+WINFROTZ.HLP	-	Help file for same
+WINFROTZ.CNT	-	Contents index for Help file
+BEYZORK.FON	-	Font for Beyond Zork
+README.TXT	-	Startup readme
+FILES.TXT	-	This file
+REVISION.TXT	-	Revision history
+ADVENT.Z5	-	Original adventure story file (see ADVENT.Z5 below)
+FREEFALL.Z5	-	Another interesting story file (see FREEFALL.Z5 below)
+
+ADVENT.Z5:
+----------
+You can use WinFrotz to play the supplied version of Classic Adventure (for
+those not up on their interactive fiction history, this is the game that started
+it all, long ago in 1977). I didn't create this version; I simply grabbed it off
+of ftp.gmd.de in /if-archive/games/infocom. You can find walk-throughs and other
+games there as well.
+
+Original Adventure was written by Willie Crowther and Don Woods. David M.
+Bagget and Graham Nelson worked to port it so it would run under Inform/ZIP 
+interpreters (like WinFrotz).
+
+To play, simply drag ADVENT.Z5 on top of the WinFrotz icon and release it.
+
+FREEFALL.Z5:
+------------
+Freefall is an example of some of the versatility of the Z-code language. It's
+not what you would consider a typical "interactive fiction" piece. This module
+was written by Andrew Plotkin.
