@@ -1,0 +1,13 @@
+I liked Fortran along with Ruby. This is because it was the first language that I was 
+introduced to programming with in high school. We were given the history behind it as a 
+reminder to thank the minds of the great people that invented this "genius language" as my 
+programming teacher put it. We learned Python instead for that year. 
+However, while I couldn't get the search for the value working properly, (althought, you'll
+see in the output that sometimes it does and sometimes it doesn't, and I couldn't figure out
+why), I managed to understand the syntax and write out the code for it.
+Fortran is powerful, and although going out of date now, I believe that somewhere out there
+people could come together and still be able to use this language in good practice in some
+moment for a comeback of languages, in something that will people's minds.
+
+Also, thank Repl.it that I was able to cheat my way through the shell, so I could use their 
+ubuntu VM and gfortran compiler, instead of downloading another compiler or using another VM ;)
