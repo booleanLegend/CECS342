@@ -1,0 +1,60 @@
+% Problem #2, "Imaginary Friends"
+% Each kid made an imaginary friend in a different adventure
+animal(bear).
+animal(moose).
+animal(seal).
+animal(zebra).
+
+kid(joanne).
+kid(lou).
+kid(ralph).
+kid(winnie).
+
+adventure(circus).
+adventure(band).
+adventure(spaceship).
+adventure(train).
+
+solve :-
+    animal(JoanneA), animal(LouA), animal(RalphA), animal(WinnieA),
+    all_different([JoanneA, LouA, RalphA, WinnieA]),
+
+    adventure(JoanneAdventure), adventure(LouAdventure),
+    adventure(RalphAdventure), adventure(WinnieAdventure),
+    all_different([JoanneAdventure, LouAdventure, RalphAdventure, WinnieAdventure]),
+
+    Triples = [ [joanne, JoanneA, JoanneAdventure],
+                [lou, LouA, LouAdventure],
+                [ralph, RalphA, RalphAdventure],
+                [winnie, WinnieA, WinnieAdventure] ],
+
+    % Rule 1 The seal(who is not the creation of either Joanne or Lou) neither rode to the moon in a spaceship nor tok a trip around the world on a magic train.
+    ( ( \+ member([joanne, seal, _], Triples),
+        \+ member([lou, seal, _], Triples)) ;
+
+        ( \+ member([_, seal, spaceship], Triples),
+          \+ member([_, seal, train], Triples)) ),
+
+    %Rule 2 Joannes imaginary friend(who is not the grizzly bear) wen to the circus.
+    \+ member([joanne, bear, _], Triples),
+    member([joanne, _, circus], Triples),
+
+    %Rule 3 Winnies imaginary friend is a zebra
+     member([winnie, zebra, _], Triples),
+
+    %Rule 4 The grizzly bear didn't board the spaceship to the moon
+    \+ member([_, bear, spaceship], Triples),
+
+    tell(joanne, JoanneA, JoanneAdventure),
+    tell(lou, LouA, LouAdventure),
+    tell(ralph, RalphA, RalphAdventure),
+    tell(winnie, WinnieA, WinnieAdventure).
+
+% Succeeds if all elements of the argument list are bound and different.
+% Fails if any element are unbound or equal to some other element.
+all_different([H | T]) :- member(H, T), !, fail.
+all_different([_ | T]) :- all_different(T).
+all_different([_]).
+
+tell(X, Y, Z) :-
+    write(X), write(' created '), write(Y), write(' and together they went on the following adventure: '), write(Z), write('.'), nl.

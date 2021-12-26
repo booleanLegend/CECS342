@@ -1,0 +1,200 @@
+:- dynamic i_am_at/1, at/2, holding/1.
+:- retractall(at(_, _)), retractall(i_am_at(_)), retractall(alive(_)).
+
+i_am_at(someplace).
+
+path(someplace, n, someplace).
+
+at(thing, someplace).
+
+
+
+/* These rules describe how to pick up an object. */
+
+take(X) :-
+        holding(X),
+        write('You''re already holding it!'),
+        !, nl.
+
+take(X, Place) :-
+        i_am_at(Place),
+        at(X, Place),
+        retract(at(X, Place)),
+        assert(holding(X)),
+        write('OK.'),
+        !, nl.
+
+take(_) :-
+        write('I don''t see it here.'),
+        nl.
+
+
+
+/* These rules describe how to put down an object. */
+
+drop(X) :-
+        holding(X),
+        i_am_at(Place),
+        retract(holding(X)),
+        assert(at(X, Place)),
+        write('OK.'),
+        !, nl.
+
+drop(_) :-
+        write('You aren''t holding it!'),
+        nl.
+
+
+
+/* These rules define the direction letters as calls to go/1. */
+
+n :- go(n).
+
+s :- go(s).
+
+e :- go(e).
+
+w :- go(w).
+
+
+
+/* This rule tells how to move in a given direction. */
+
+go(Direction) :-
+        i_am_at(Here),
+        path(Here, Direction, There),
+        retract(i_am_at(Here)),
+        assert(i_am_at(There)),
+        !, look.
+
+go(_) :-
+        write('You can''t go that way.').
+
+
+
+/* This rule tells how to look about you. */
+
+look :-
+        i_am_at(Place),
+        describe(Place),
+        nl,
+        notice_objects_at(Place),
+        nl.
+
+
+
+/* These rules set up a loop to mention all the objects
+   in your vicinity. */
+
+notice_objects_at(Place) :-
+        at(X, Place),
+        write('There is a '), write(X), write(' here.'), nl,
+        fail.
+
+notice_objects_at(Bedroom) :-
+    at(Door, Bedroom),
+    write('There is a'), write(Door), write(', specifically, a closed brown door with matching bronze-decaying handles and hinges, as are all the doors in your apartment...[line break]as is your life...'), nl,
+    fail.
+
+notice_objects_at(Bathroom) :-
+    at(Door, Bathroom),
+    write('There is a '), write(Door), write(', specifically, a brown door with matching bronze-decaying handles and hinges, as are all the doors in your apartment...[line break]except this one has a mirror to see your horrendous face'), nl,
+    fail.
+
+notice_objects_at(Living-Room) :-
+    at(LivingDoor, Living-Room),
+    write('There is a '), write(LivingDoor), write(', specifically, a brown door with matching bronze-decaying handles and hinges, as are all thd roors in your apartment...[line break]as is your life...'), nl,
+
+    at(Computer, Living-Room),
+    write('There is a '), write(Computer), write(', specifically, an elegant construction of aluminum and LED lights, mixed with silicon computing power at its finest. The glowing, random sparkles of the razer keyboard will bedazzle anyone. However, the true glory is the computer tower, liquid cooled with twirling colors, as they change from the speed and power of the fans. The black and green monitor sits like a king in the middle, with the picture of Iron-Man as he walks away from an exploding tank in tmhe famous scene from the first Iron-Man movie.'), nl,
+
+    at(Key, Living-Room),
+    write('There is a '), write(Key), write(', a typical house key, a 6-toothed, bronze key'), nl,
+
+    at(GTIKeys, Living-Room),
+    write('There is a '), write(GTIKeys), write(', black, plastic keys. You love pressing the aluminum coated button that pops out the silver key, which is, esssentially useless, because... key-less entry baby! Oh yeah!'), nl,
+
+    at(SafeKey, Living-Room),
+    write('There is a '), write(SafeKey), write(', another non-chalant silver key. But this one unlocks a very special safe, in which you probably have something very special... You may want to keep this one... Just saying.'), nl,
+
+    at(KeyHangar, Living-Room),
+    write('There is a '), write(KeyHanger), write(', another brown objets, a hangar where you hang and keep all your keys. There is the house key, GTI keys, work keys, and a odd-looking silver key...'), nl,
+    fail.
+
+notice_objects_at(Garage) :-
+    at(GTI, Garage),
+    write('There it is. Parked and basking in darkness is your beautiful 2018 Volkswagen '), write(GTI), write('Rabbit. You use your phones flashlight to check the car to make sure that there are no new marks on it is eerily dark body. The spectrum oak green color comes into view, as it shines under your phones effervescent blue light. It looks just as you had it yesterday, and the day before that, and the day before that one, as if just came out of the factory. It has been 3 years and it still looks brand new. You remember, however, that you have not installed the shifter yet. That is what the safe key was for. It opens the safe that you have in the garage that contains the $500 Billetworkz shifter. The car is missing a shifter, hahaha. Have to install it.'), nl,
+
+    at(Cabin, Garage),
+    write('Inside the '), write(Cabin), write('a simple, yet elegant design of a cabin interior. Red stitcking lines the outlines of the leather seats. With the key within the sensors of the doors, the red lighting overhead comes on. It lights the front panel, the steering wheel and main controls, such as the AC, radio, etc...Dark tinted windows make everything outside seem a lot darker.'), nl,
+
+    at(CarHandle, Garage),
+    write('You look at the '), write(CarHandle), write('slick and dark at night, but shiny, spectrum oak green during the day, the cars door handle is keyless. Just have the key in your pocket, and the door will open. Otherwise, it will not. Love this car! You gotta admit: the Germans know how to make good cars...'), nl,
+    fail.
+
+
+
+/* This rule tells how to die. */
+
+die :-
+        finish.
+
+
+
+/* Under UNIX, the "halt." command quits Prolog but does not
+   remove the output window. On a PC, however, the window
+   disappears before the final output can be seen. Hence this
+   routine requests the user to perform the final "halt." */
+
+finish :-
+        nl,
+        write('The game is over. Please enter the "halt." command.'),
+        nl.
+
+
+
+/* This rule just writes out game instructions. */
+
+instructions :-
+        nl,
+        write('Enter commands using standard Prolog syntax.'), nl,
+        write('Available commands are:'), nl,
+        write('start.             -- to start the game.'), nl,
+        write('n.  s.  e.  w.     -- to go in that direction.'), nl,
+        write('take(Object).      -- to pick up an object.'), nl,
+        write('drop(Object).      -- to put down an object.'), nl,
+        write('look.              -- to look around you again.'), nl,
+        write('instructions.      -- to see this message again.'), nl,
+        write('halt.              -- to end the game and quit.'), nl,
+        nl.
+
+
+
+/* This rule prints out instructions and tells where you are. */
+
+start :-
+        instructions,
+        look(Bedroom).
+
+
+
+/* These rules describe the various rooms.  Depending on
+   circumstances, a room may have more than one description. */
+
+describe(Bedroom) :- write("You live on the 2nd floor of an apartment. You just woke up from your evening nap. It is 9 o clock. You drift off to the shiny piece of metal that hangs on your key hanger next to the door of the living room. It's Drift Night with the boys! You jump out of bed quickly. You are inside, in the bedroom. To your north is a small division that separates your apartment from the bathroom and the living room."), nl.
+
+describe(Bathroom) :- write("This room is what you like to call your place of zen and piece... a.k.a your private place..."), nl.
+
+describe(Division) :- write("Middle ground room between the bathroom and the bedroom."), nl.
+
+describe(Living-Room) :- write("You are now in the living room. This room allows you to breathe in the carbon exhausts from the cars outside because you always keep the living room window open. On the far wall, where the window is, you can see the shiny green logo of the Razer snakes, where your fancy, shmancy powerful computer sits ready to be used. However, that's now what you have in mind right now..."), nl.
+
+describe(Kitchen) :- write("You are in the kitchen, where you still faintly smell the garlic and the oil from your earlier meal. What was it?...[line break][line break]Ah yes, teriyaki chicken, chow mein, and fried rice from your favorite Thai place out in Echo Park.[line break]Anyways, where were we?..."), nl.
+
+describe(Main-Apartment-Hallway) :- write("You are outside of your apartment. The smell of cigarettes fills your nose as you step into the main apartment hallway. Your next door neighbor must have had another bad day at work again. It looks darker than it does in your apartment. Get away from the stench by taking the stairs."), nl.
+
+describe(Sidewalk) :- write("As you step onto the sidewalk, you can't help but notice the stock cars lined up along the curb. You take in fresh air as you look left and right at the dark apartments, which are, one by one, turning off their lights for the night. It's time for drifting."), nl.
+
+describe(Driveway) :- write("You plant yourself firmly on the jagged, old, black asphalt of the building's driveway. Just steps from you is your beloved beauty. It hides in the dark shadows of the night. Although it is a spectrum oak green, it looks almost black because of tonight's new moon. It's going to be a perfect night to show off your new Billetworkz shifter as it glows red from the overhead interior lights of your car."), nl.
+
+describe(Garage) :- write("You love and hate the fact that you can't have your own garage door. Love it because, well, everyone who passes by can see it. Hate it, because you sometimes, you want the car to have its own private space, especially when it's leaking oil late after a midnight run... Oh, yeah. It has no lights. Now that's annoying."), nl.
